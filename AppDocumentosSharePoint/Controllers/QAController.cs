@@ -5,9 +5,9 @@ using AppDocumentosSharePoint.Models; // Reemplaza con el namespace real de tu m
 
 public class QAController : Controller
 {
-    private readonly AppDbContext _context;
+    private readonly AplicDbContext _context;
 
-    public QAController(AppDbContext context)
+    public QAController(AplicDbContext context)
     {
         _context = context;
     }
